@@ -78,8 +78,8 @@ INT32 main()
     // 打印0到9的10个数
     for (iLoopFlag=0; iLoopFlag<10; iLoopFlag++)
     {
-	    _snprintf(szLogContent, sizeof(szLogContent)-1, "The value is: %d", iLoopFlag);
-	    WriteLogFile(LOG_INFO, szLogContent);
+        _snprintf(szLogContent, sizeof(szLogContent)-1, "The value is: %d", iLoopFlag);
+	WriteLogFile(LOG_INFO, szLogContent);
     }
 
     return 0;                  // main函数执行成功返回0
