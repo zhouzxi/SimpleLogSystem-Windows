@@ -152,44 +152,44 @@ UINT8 *LogLevel(UINT32 iLogLevel)
     switch (iLogLevel)
     {
         case LOG_FATAL:
-	      {
-		        return "FATAL";
+	{
+	    return "FATAL";
       	}
 
         case LOG_ERROR:   
-	      {
-	          return "ERROR";
+	{
+	    return "ERROR";
       	}
 
         case LOG_WARN :
-	      {
-		        return "WARN";
-	      }
+	{
+	    return "WARN";
+	}
 
         case LOG_INFO :
-	      {
-		        return "INFO";
+	{
+	    return "INFO";
         }
 
         case LOG_TRACE:   
-	      {
-		        return "TRACE";
-	      }
+	{
+	    return "TRACE";
+	}
 
         case LOG_DEBUG:   
-	      {
-		        return "DEBUG";
-	      }
+	{
+	    return "DEBUG";
+	}
 
-	      case LOG_ALL:   
-	      {
-		        return "ALL";
-	      }
+	case LOG_ALL:   
+	{
+	    return "ALL";
+	}
 
         default: 
-	      {
-		        return "OTHER";
-	      }
+	{
+	    return "OTHER";
+        }
     }
 }
 
